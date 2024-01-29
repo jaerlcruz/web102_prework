@@ -36,7 +36,10 @@ GIF created with LICEcap.
 
 ## Notes
 
-As I am about completely new to Javascript, I struggled mostly with adding features that did not have a tutorial or tips in the instructions. Specifically, the number animation in the Stats section gave me some trouble since I had to figure out how to pass a calculated variable from Javascript into the HTML/CSS environment.
+I mostly code in Python, so transferring to a Javascript environment had some challenges.
+
+I struggled mostly with adding optional features and figuring out how and where to add those features. Specifically, the number animation in the Stats section gave me some trouble since I had to figure out how to pass a calculated variable from Javascript into the HTML/CSS environment.
+
 
 ## License
 
