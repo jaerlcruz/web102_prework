@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,400;1,9..40,700;1,9..40,800&display=swap');
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    font-family: 'DM Sans';
+    background-color: #424549;
+    color: white;
 }
 
 #tentacles {
@@ -11,19 +13,60 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: lightblue;
-    padding: 1%;
+    color: #424549;
+    padding-left: 10%;
+    padding-right: 10%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
 }
 
-.stats-container {
+.header-main {
     display: flex;
 }
 
+.header-text {
+    margin-left: 20px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+h1 {
+    margin-bottom: -4px;
+}
+
+.main-body {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.info {
+    width: 40%;
+}
+
+.stats-n-stuff {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
 .stats-card {
+    display: flex;
+    flex-direction: column;
+    color: #424549;
     background-color: #a8b0bc;
     border-radius: 7px;
     padding: 1%;
@@ -50,11 +93,13 @@ body {
 
 .game-card {
     background-color: #FFFFFF;
+    color: #424549;
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    transition: 0.3s;
 }
 
 .game-card:hover {
@@ -72,4 +117,11 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
